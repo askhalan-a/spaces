@@ -1,0 +1,19 @@
+# Firebase App Hosting settings for the SpaceOps review build.
+# Docs: https://firebase.google.com/docs/app-hosting/configure
+
+runConfig:
+  # Scale to zero when nobody is looking, so a review site costs next to nothing.
+  minInstances: 0
+  maxInstances: 2
+  cpu: 1
+  memoryMiB: 512
+  concurrency: 80
+
+env:
+  # Lovable's build targets Cloudflare by default. This switches the build
+  # to a plain Node server, which is what App Hosting runs (`npm start`).
+  # It only applies on Firebase, so Lovable's own preview is unaffected.
+  - variable: NITRO_PRESET
+    value: node-server
+    availability:
+      - BUILD
