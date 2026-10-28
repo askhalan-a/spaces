@@ -10,9 +10,9 @@ import { COMPANY } from "@/lib/mock-data";
 export const Route = createFileRoute("/settings")({
   head: () => ({
     meta: [
-      { title: "Settings — Estate" },
+      { title: "Settings — SpaceOps" },
       { name: "description", content: "Company profile, GST details, invoice numbering and reminders." },
-      { property: "og:title", content: "Settings — Estate" },
+      { property: "og:title", content: "Settings — SpaceOps" },
       { property: "og:description", content: "Company profile, GST details, invoice numbering and reminders." },
     ],
   }),

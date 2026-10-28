@@ -8,9 +8,9 @@ import { inr, units } from "@/lib/mock-data";
 export const Route = createFileRoute("/tenants/")({
   head: () => ({
     meta: [
-      { title: "Tenants & Leases — Estate" },
+      { title: "Tenants & Leases — SpaceOps" },
       { name: "description", content: "All tenants with lease terms, rent and renewal status." },
-      { property: "og:title", content: "Tenants & Leases — Estate" },
+      { property: "og:title", content: "Tenants & Leases — SpaceOps" },
       { property: "og:description", content: "All tenants with lease terms, rent and renewal status." },
     ],
   }),

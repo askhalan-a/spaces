@@ -10,9 +10,9 @@ import { COMPANY, inr, leads, stages, type Lead } from "@/lib/mock-data";
 export const Route = createFileRoute("/leads")({
   head: () => ({
     meta: [
-      { title: "Leads & Quotations — Estate" },
+      { title: "Leads & Quotations — SpaceOps" },
       { name: "description", content: "Pipeline of prospective tenants and auditorium clients with GST quotations." },
-      { property: "og:title", content: "Leads & Quotations — Estate" },
+      { property: "og:title", content: "Leads & Quotations — SpaceOps" },
       { property: "og:description", content: "Pipeline of prospective tenants and auditorium clients with GST quotations." },
     ],
   }),

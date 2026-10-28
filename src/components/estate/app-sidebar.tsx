@@ -1,5 +1,6 @@
 import { Link, useRouterState } from "@tanstack/react-router";
 import { Sun, Building2, FileSignature, CalendarDays, KanbanSquare, Receipt, Wallet, BarChart3, Settings } from "lucide-react";
+import tile from "@/assets/spaceops-icon-tile.png.asset.json";
 import {
   Sidebar, SidebarContent, SidebarFooter, SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarHeader,
   SidebarMenu, SidebarMenuBadge, SidebarMenuButton, SidebarMenuItem,
@@ -40,9 +41,9 @@ export function AppSidebar() {
     <Sidebar collapsible="icon" className="border-r-0">
       <SidebarHeader className="px-3 pb-2 pt-4">
         <div className="flex items-center gap-2.5 px-1">
-          <div className="grid size-7 shrink-0 place-items-center rounded-[9px] bg-primary text-[13px] font-semibold text-primary-foreground shadow-soft">E</div>
+          <img src={tile.url} alt="SpaceOps" className="size-7 shrink-0 rounded-[8px]" />
           <div className="leading-tight group-data-[collapsible=icon]:hidden">
-            <div className="text-[13px] font-semibold text-foreground">Estate</div>
+            <div className="text-[13px] font-semibold text-foreground">Space<span className="text-gold">Ops</span></div>
             <div className="text-[11px] text-muted-foreground">Malabar Estates</div>
           </div>
         </div>
@@ -83,7 +84,7 @@ export function AppSidebar() {
           </SidebarMenuItem>
         </SidebarMenu>
         <div className="mt-1 flex items-center gap-2.5 rounded-lg px-1.5 py-1.5">
-          <div className="grid size-7 shrink-0 place-items-center rounded-full bg-gradient-to-br from-gold to-accent-foreground text-[11px] font-semibold text-gold-foreground">SK</div>
+          <div className="grid size-7 shrink-0 place-items-center rounded-full bg-gradient-to-br from-primary to-secondary-foreground text-[11px] font-semibold text-primary-foreground">SK</div>
           <div className="leading-tight group-data-[collapsible=icon]:hidden">
             <div className="text-[13px] font-medium text-foreground">Suresh Kumar</div>
             <div className="text-[11px] text-muted-foreground">Estate manager</div>

@@ -13,9 +13,9 @@ export const Route = createFileRoute("/tenants/$leaseId")({
   },
   head: ({ loaderData }) => ({
     meta: [
-      { title: loaderData ? `${loaderData.unit.tenant} lease — Estate` : "Lease — Estate" },
+      { title: loaderData ? `${loaderData.unit.tenant} lease — SpaceOps` : "Lease — SpaceOps" },
       { name: "description", content: "Lease record with terms and renewal reminders." },
-      { property: "og:title", content: loaderData ? `${loaderData.unit.tenant} lease — Estate` : "Lease — Estate" },
+      { property: "og:title", content: loaderData ? `${loaderData.unit.tenant} lease — SpaceOps` : "Lease — SpaceOps" },
       { property: "og:description", content: "Lease record with terms and renewal reminders." },
     ],
   }),

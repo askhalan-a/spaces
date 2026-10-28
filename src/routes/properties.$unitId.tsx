@@ -12,9 +12,9 @@ export const Route = createFileRoute("/properties/$unitId")({
   },
   head: ({ loaderData }) => ({
     meta: [
-      { title: loaderData ? `${loaderData.unit.code} — Estate` : "Unit — Estate" },
+      { title: loaderData ? `${loaderData.unit.code} — SpaceOps` : "Unit — SpaceOps" },
       { name: "description", content: "Unit details, lease and payment history." },
-      { property: "og:title", content: loaderData ? `${loaderData.unit.code} — Estate` : "Unit — Estate" },
+      { property: "og:title", content: loaderData ? `${loaderData.unit.code} — SpaceOps` : "Unit — SpaceOps" },
       { property: "og:description", content: "Unit details, lease and payment history." },
     ],
   }),

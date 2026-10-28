@@ -14,9 +14,9 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/auditorium")({
   head: () => ({
     meta: [
-      { title: "Auditorium Calendar — Estate" },
+      { title: "Auditorium Calendar — SpaceOps" },
       { name: "description", content: "Month and day views of Sree Rama Convention Hall bookings." },
-      { property: "og:title", content: "Auditorium Calendar — Estate" },
+      { property: "og:title", content: "Auditorium Calendar — SpaceOps" },
       { property: "og:description", content: "Month and day views of Sree Rama Convention Hall bookings." },
     ],
   }),

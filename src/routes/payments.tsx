@@ -9,9 +9,9 @@ import { COMPANY, inr, payments, type PaymentRow } from "@/lib/mock-data";
 export const Route = createFileRoute("/payments")({
   head: () => ({
     meta: [
-      { title: "Payments & Receipts — Estate" },
+      { title: "Payments & Receipts — SpaceOps" },
       { name: "description", content: "Every rent and booking payment with GST-compliant receipts." },
-      { property: "og:title", content: "Payments & Receipts — Estate" },
+      { property: "og:title", content: "Payments & Receipts — SpaceOps" },
       { property: "og:description", content: "Every rent and booking payment with GST-compliant receipts." },
     ],
   }),

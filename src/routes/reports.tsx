@@ -10,9 +10,9 @@ import { gstMonthly, inr, monthlyRent, pnl } from "@/lib/mock-data";
 export const Route = createFileRoute("/reports")({
   head: () => ({
     meta: [
-      { title: "Financial Reports — Estate" },
+      { title: "Financial Reports — SpaceOps" },
       { name: "description", content: "Collections summary, profit & loss and GST summary reports." },
-      { property: "og:title", content: "Financial Reports — Estate" },
+      { property: "og:title", content: "Financial Reports — SpaceOps" },
       { property: "og:description", content: "Collections summary, profit & loss and GST summary reports." },
     ],
   }),

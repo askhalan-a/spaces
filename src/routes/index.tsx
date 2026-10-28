@@ -9,9 +9,9 @@ import { activity, inr, monthlyRent, upcoming } from "@/lib/mock-data";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Today — Estate" },
+      { title: "Today — SpaceOps" },
       { name: "description", content: "Your daily to-do list for rent follow-ups, lease renewals, hall bookings and enquiries." },
-      { property: "og:title", content: "Today — Estate" },
+      { property: "og:title", content: "Today — SpaceOps" },
       { property: "og:description", content: "Your daily to-do list for rent follow-ups, lease renewals, hall bookings and enquiries." },
     ],
   }),
